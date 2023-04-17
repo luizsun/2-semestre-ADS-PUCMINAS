@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Estilos gerais */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos do cabeçalho */
+  
+  header {
+    background-color: #2C203C;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav img {
+    user-select: none;
+    pointer-events: none;
+    position: relative;
+    transform: translateY(10px);
+    height: 64px;
+    width: 64px;
+  }
+
+  nav h1 {
+    user-select: none;
+    margin: 0;
+    font-size: 42px;
+    font-family: 'Bebas Neue';
+    display: inline;
+  }
+  
+  nav ul {
+    display: inline;
+    position: absolute;
+    right: 5px;
+    top: 64px;
+  }
+  
+  nav li {
+    display: inline;
+    /*float: right;*/
+    margin: 0 10px;
+  }
+  
+  nav a {
+    /*display: block;*/
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+/* Cadastro de livros */  
+
+.add-livro {
+    padding-top: 32px;
+    text-align: center;
+}
+
+.add-livro h2 {
+    font-size: 18px;
+    color: #2C203C;
+    text-decoration: underline;
+}
+
+.add-livro img {
+    height: 36px;
+    width: 36px;
+}
+
+
+/* ADICIONAR LIVRO */
+
+.cad-livro {
+  margin-top: 32px;
+}
+
+.cad-livro form {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cad-livro label {
+  display: block;
+  margin-bottom: 10px;
+  color: #616161;
+}
+
+.add-foto {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.add-foto label {
+  cursor: pointer;
+}
+
+.cad-livro input[type="file"] {
+  padding-bottom: 20px;
+}
+
+.cad-livro input[type="text"] {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.cad-livro input[type="submit"] {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #28242E;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cad-livro input[type="submit"]:hover {
+  background-color: #4E455C;
+}

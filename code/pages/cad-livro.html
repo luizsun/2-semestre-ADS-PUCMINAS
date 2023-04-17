@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastrar Livro - ConnectBook </title>
+        <link rel="stylesheet" href="./style-cad.css">
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <nav id="header-id">
+            <img src="../img/logo.png" alt="logo">
+            <h1>ConnectBook</h1>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#how-it-works">Por que doar?</a></li>
+                    <li><a href="#">Livros disponíveis</a></li>
+                    <li><a href="../pages/login.html">Login</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section class="cad-livro">
+        <form method="post" action="cadastrar_livro.cs">
+            <div class="add-foto">
+                <label for="foto-do-livro"> <img src="../img/add-foto.png" alt="adicionar foto do livro"> </label>
+                <input type="file" id="foto-do-livro" name="foto-do-livro">
+                <label for="foto-do-livro">Adicionar foto</label>
+                <br>
+            </div>
+            <br>
+            <label for="nome-do-livro">Nome do livro: </label>
+            <input type="text" id="nome-do-livro" name="nome-do-livro">
+            <br>
+            <label for="autor">Autor: </label>
+            <input type="text" id="autor" name="autor">
+            <br>
+            <input type="submit" value="Adicionar">
+        </form>
+    </section>
+    </body>
+</html>
